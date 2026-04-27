@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.12.0](https://github.com/rustic-rs/rustic_core/compare/rustic_core-v0.11.0...rustic_core-v0.12.0) - 2026-04-27
+
+### Added
+
+- [**breaking**] scope destination scan to snapshot-relevant paths for restore ([#493](https://github.com/rustic-rs/rustic_core/pull/493))
+
+### Fixed
+
+- local BE - don't leave broken files when writing fails ([#499](https://github.com/rustic-rs/rustic_core/pull/499))
+- fix clipp lints ([#500](https://github.com/rustic-rs/rustic_core/pull/500))
+
 ## [0.11.0](https://github.com/rustic-rs/rustic_core/compare/rustic_core-v0.10.1...rustic_core-v0.11.0) - 2026-04-05
 
 ### Added
